@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+#define pi  3.14159
+#define NEWLINE  '\n'
+	
+int main() 
+
+{
+
+	double raio = 5.0;
+	double circle;
+
+	circle = 2 * pi * raio;
+	cout << circle;
+	cout << NEWLINE;
+
+}
