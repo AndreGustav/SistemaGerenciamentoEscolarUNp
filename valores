@@ -1,0 +1,27 @@
+#include<iostream>
+#include<cstdlib>
+
+using namespace std;
+
+int main(){
+
+int inteiro = 10;
+float pontoflutuante = 2.35;
+double pontoflutuante2 = 2.3545;
+char caracter = 'a';
+bool logico = true; 
+
+cout<< inteiro << " - Um numero inteiro" << endl;
+cout<< pontoflutuante << " - Um numero em ponto flutuante" << endl;
+cout<< pontoflutuante2 << " - Um numero em ponto flutuante com dupla precisao" << endl;
+cout<< caracter << " - Um Caracter" << endl;
+cout<< logico << " - Um Valor logico" << endl;
+cout<< endl;
+
+
+system ("PAUSE");
+
+return 0;
+
+
+}
