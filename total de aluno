@@ -1,0 +1,21 @@
+#include<iostream>
+#include<cstdlib>
+
+using namespace std;
+
+#define AC 10
+
+int main(){
+	
+
+int totalclasses = 47;
+int totalalunos = AC*totalclasses;
+
+cout<< "O Total de alunos nessa escola e "<< totalalunos << endl;
+
+system("PAUSE");
+
+return 0;	
+	
+} 
+
