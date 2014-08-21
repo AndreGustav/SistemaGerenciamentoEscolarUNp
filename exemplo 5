@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    string str;
+    do{
+        cout << "\n Entre com o texto: ";
+        getline (cin, str);
+        cout << "\n Voce entrou: " << str << '\n';
+
+    }  while (str != "ADEUS !!!");
+
+}
