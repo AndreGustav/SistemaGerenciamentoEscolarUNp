@@ -1,0 +1,34 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+int x;
+
+
+{
+    cout << "Escolha um numero de 1 a 3 \n\n";
+    cin >> x;
+
+    switch (x){
+
+    case 1:
+        cout<< "\n Andre e gostoso !!!\n";
+        break;
+
+    case 2:
+        cout << "\n Andre e lindo !!!\n";
+        break;
+
+    case 3:
+        cout << "\n I LOVE ANDRE !!! \n";
+        break;
+    default:
+        cout << "\n VC NAO SABE BRINCAR !!!\n";
+
+    }
+    return 0;
+}
+}
