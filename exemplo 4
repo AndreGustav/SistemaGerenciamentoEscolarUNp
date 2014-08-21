@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n = 10;// valor do numero inteiro
+
+    while (n>0) { // enquanto (while) n for maior que 0
+
+        cout << n << ",";
+
+        --n; // diminuindo de 1 em 1 ( --n ) se fosse ( ++n iria aumentar )
+
+            }
+
+            cout << " Decolagem !\n"; // escreva.
+}
